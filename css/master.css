@@ -2,14 +2,41 @@
   box-sizing: border-box;
 }
 
+article {
+  padding: 15px 35px;
+}
+
+blockquote {
+  border-left: 2px solid black;
+  padding-left: 35px;
+  margin-bottom: 40px;
+}
+
+.blockquote-author {
+  color: #333;
+}
+
 body {
   background: blue;
+  line-height: 1.8;
   max-width: 100%;
+}
+
+footer {
+  padding: 5px 15px 30px;
+}
+
+footer p {
+  
+}
+
+footer a {
+  color: blue;
+  text-decoration: none;
 }
 
 header {
   border-bottom: 1px solid black;
-  text-align: center;
   padding: 15px 0 30px;
 }
 
@@ -32,11 +59,18 @@ main {
   width: 100%;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 #image-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
 }
 
 #image-gallery figure {
