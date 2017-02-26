@@ -4,7 +4,7 @@ Remastered my original tribute page found [here](http://codepen.io/ryanjmack/pen
 
 ## Getting Started
 
-You can check it out [here](hhttps://ryanjmack.github.io/fcc-tribute-page/)!
+You can check it out [here](https://ryanjmack.github.io/fcc-tribute-page/)!
 
 ## Running the tests
 
