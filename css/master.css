@@ -2,12 +2,15 @@
   box-sizing: border-box;
 }
 
+html {background: linear-gradient(#D6DCBD, #ABC3E2, #898F6D, #A98480, #8F7774);}
+
 article {
   font-weight: 300;
   font-family: sans-serif;
+  line-height: 2;
   margin: 0 auto;
   max-width: 600px;
-  padding: 15px 35px;
+  padding: 20px 35px;
 }
 
 article h2 {
@@ -15,21 +18,33 @@ article h2 {
   font-size: 20px;
   font-weight: 500;
   font-style: italic;
-  text-decoration: underline;
+}
+
+article ul {
+  margin-top: 40px;
+}
+
+article li {
+  margin-top: 20px;
+  line-height: 1.5;
 }
 
 blockquote {
-  border-left: 2px solid black;
+  border-left: 2px solid #333;
   padding-left: 35px;
   margin-bottom: 40px;
 }
 
+blockquote p {
+  margin: 30px 0;
+}
+
 .blockquote-author {
   color: #333;
+  font-style: italic;
 }
 
 body {
-  background: blue;
   font-family: 'Merriweather', serif;
   line-height: 1.8;
   max-width: 100%;
@@ -42,20 +57,16 @@ figcaption {
 }
 
 footer {
-  padding: 5px 15px 30px;
+  padding: 5px 25px 30px;
 }
 
-footer p {
-
-}
-
-footer a {
-  color: blue;
+a {
+  color: #2075FE;
   text-decoration: none;
 }
 
 header {
-  padding-top: 15px;
+  padding: 11px 0 30px;
   margin-bottom: 30px;
 }
 
@@ -77,14 +88,15 @@ img {
 }
 
 main {
-  background-color: wheat;
+  background: linear-gradient(#D6DCBD, #DDD);
+  box-shadow: 0px 0px 9px black;
   margin: 0 auto;
   max-width: 960px;
   width: 100%;
 }
 
 .border-bottom {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #999;
 }
 
 .text-center {
@@ -93,6 +105,10 @@ main {
 
 .text-justify {
   text-align: justify;
+}
+
+.p-padding {
+  padding: 20px 35px 0;
 }
 
 #image-gallery {
