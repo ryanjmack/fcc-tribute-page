@@ -3,7 +3,19 @@
 }
 
 article {
+  font-weight: 300;
+  font-family: sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
   padding: 15px 35px;
+}
+
+article h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 blockquote {
@@ -18,13 +30,14 @@ blockquote {
 
 body {
   background: blue;
+  font-family: 'Merriweather', serif;
   line-height: 1.8;
   max-width: 100%;
 }
 
 figcaption {
   bottom: 3px;
-  font-size: 16px;
+  font-size: 14px;
   position: relative;
 }
 
@@ -47,12 +60,15 @@ header {
 }
 
 header h1 {
-  font-size: 20px;
+  font-size: 28px;
+  font-weight: 300;
   margin: 10px 0;
 }
 
 header h2 {
-  font-size: 15px;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
   margin: 10px 0;
 }
 
@@ -114,6 +130,16 @@ main {
 @media screen and (min-width: 745px) {
   #image-gallery figure {
     margin: 30px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  header h1 {
+    font-size: 35px;
+  }
+
+  header h2 {
+    font-size: 15px;
   }
 }
 
