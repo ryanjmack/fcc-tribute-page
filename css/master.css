@@ -108,7 +108,7 @@ main {
 }
 
 .p-padding {
-  padding: 20px 35px 0;
+  padding: 20px 10px 0;
 }
 
 #image-gallery {
@@ -132,6 +132,10 @@ main {
 
 
 @media screen and (min-width: 662px) {
+  .p-padding {
+    padding: 20px 35px 0;
+  }
+
   #starry-night {
     position: relative;
     top: 5px;
