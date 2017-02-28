@@ -1,0 +1,24 @@
+{
+  "name": "tribute-page",
+  "version": "1.0.0",
+  "description": "Remastered my original tribute page found [here](http://codepen.io/ryanjmack/pen/LZVVrM). My original tribute page was made when I first started coding a while back. The file sizes of the pictures were huge and the site was made with bootstrap. This version inc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanjmack/fcc-tribute-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanjmack/fcc-tribute-page/issues"
+  },
+  "homepage": "https://github.com/ryanjmack/fcc-tribute-page#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-concat": "^2.6.1"
+  }
+}
